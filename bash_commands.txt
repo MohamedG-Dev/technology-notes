@@ -1,0 +1,82 @@
+echo hello terminal
+--------------------------------------------------------------------------
+Type pwd into the terminal and press enter to see the path of the folder. 
+pwd stands for "print working directory".
+------------------------------------------------------------------------------
+Type ls into the terminal to see what's in this folder. ls stands for "list".
+-----------------------------------------------------------------------------------
+You can use cd <folder_name> to go into a folder. cd stands for "change directory".
+-------------------------------------------------------------------------------------
+You can use cd .. to go back a folder level. The two dots will take you back one level. 
+-----------------------------------------------------------------------------------------------
+You can see what's in a file with more <filename> => Type "more package.json" into the terminal
+-------------------------------------------------------------------------------------------------
+Type "clear" to clear the command prompt of Bash
+---------------------------------------------------------------------------------
+You can add a flag to a command to use it different ways like this: ls <flag>. 
+List the contents of the node_modules folder in "long list format"
+
+Command: ls -l
+----------------------------------------------------------------------------------------
+go back two folders with command => cd ../..
+------------------------------------------------------------------------------------------
+ou can make a new folder with mkdir <folder_name>. mkdir stands for "make directory"
+Command: mkdir foldername
+CommandL mkdir parentfoldername/childfoldername/subchildfoldername
+---------------------------------------------------------------------------------------------
+You can use touch <filename> to create a new file. Command -> touch index.html
+---------------------------------------------------------------------------------------------
+List all the contents of the website folder -> Command: ls -a
+--------------------------------------------------------------------------------------------
+The "." takes you to the folder you are in, and ".." takes you back, or up, a folder
+----------------------------------------------------------------------------------------------
+You can copy a file with cp <file> <destination>. cp stands for "copy" 
+
+Command: cp background.jpg images
+-----------------------------------------------------------------------------------------
+You can remove a file with rm <filename>
+
+Command: rm background.jpg
+-------------------------------------------------------------------------------------
+You can rename them with mv like this: mv <filename> <new_filename>. mv stands for "move",
+it can rename or move something
+
+Command: mv roboto.font robot.woff
+--------------------------------------------------------------------------------------------------
+You can use find to find things or view a file tree. 
+
+Command: find
+
+command to find the tree of a differet folder: find client (i.e client is the folder name)
+
+Find help command: find --help
+-----------------------------------------------------------------------------------------------------
+You can make a folder in that client folder from here by adding it to the path like this:
+	 mkdir client/<new_folder_name>
+Command: mkdir client/src
+----------------------------------------------------------------------------------------------------
+Command: mv index.html client/src => Moving dircettly to subfolder
+--------------------------------------------------------------------------------------------------
+ You can use it to search for something with find -name <filename>
+
+Command: find -name index.html
+-------------------------------------------------------------------------------------------------
+You can use rmdir <directory_name> to remove a folder. rmdir stands for "remove directory"
+
+Command: rmdir images
+--------------------------------------------------------------------------------------------
+Command to remove a file: rm images/background.jpg
+------------------------------------------------------------------------------------------
+There's a -r flag that says, remove directories and their contents recursively.
+That will remove the folder and everything in it.
+
+Command: rm -r fonts
+(fonts is the folder name)
+--------------------------------------------------------------------------------------------------
+you can print to a file instead of the terminal with echo text >> filename
+
+Command: echo I made this boilerplate >> README.md
+------------------------------------------------------------------------------------------------
+Use the "exit" command to exit the terminal.
+
+Command: exit
