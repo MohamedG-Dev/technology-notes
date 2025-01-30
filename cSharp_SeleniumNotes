@@ -19,3 +19,21 @@ Selenium Notes:
 	The following statement prints the title - TestContext.Progress.WriteLine(driver.Url);
 
 - Code to close/quit browser: driver.Close(); driver.Quit();
+
+- Command to launch Firefox browser
+	import statements:
+		using OpenQA.Selenium;
+		using OpenQA.Selenium.Firefox;
+		using WebDriverManager.DriverConfigs.Impl;
+	Code:
+         new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
+         driver = new FirefoxDriver();
+
+- Command to launch Edge browser
+	import statements:
+		using OpenQA.Selenium;
+		using OpenQA.Selenium.Edge;
+		using WebDriverManager.DriverConfigs.Impl;
+	Code:
+         new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+         driver = new EdgeDriver();
